@@ -8,7 +8,7 @@ disable_awdl() {
 
 # Function to enable AWDL
 enable_awdl() {
-    sudo launchctl load 
+    sudo ifconfig awdl0 up
     echo "AWDL service has been enabled."
 }
 
